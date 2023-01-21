@@ -7,6 +7,7 @@
 Millenium - like [selenium](https://github.com/SeleniumHQ/selenium), but for [Minecraft Fabric](https://github.com/FabricMC/fabric). Automate your Minecraft gameplay! Currently under development.
 
 ![Issues](https://img.shields.io/github/issues/Maxdsdsdsd/millenium)
+![License](https://img.shields.io/github/license/Maxdsdsdsd/millenium)
 
 ## Client Code Example
 
