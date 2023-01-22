@@ -1,4 +1,4 @@
-import millenium, time
+import millenium
 
 driver = millenium.millenium(port=2741)
 
