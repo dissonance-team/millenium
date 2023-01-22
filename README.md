@@ -14,7 +14,7 @@ Millenium - like [selenium](https://github.com/SeleniumHQ/selenium), but for [Mi
 ### AutoFish:
 
 ```bash
-import millenium, time
+import millenium
 
 driver = millenium.millenium(port=2741)
 
