@@ -13,7 +13,7 @@ Millenium - like [selenium](https://github.com/SeleniumHQ/selenium), but for [Mi
 
 ### AutoFish:
 
-```bash
+```python
 import millenium
 
 driver = millenium.millenium(port=2741)
