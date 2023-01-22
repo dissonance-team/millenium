@@ -31,3 +31,22 @@ while True:
 ```
 
 <img src="https://user-images.githubusercontent.com/33353036/213884466-5af7cc35-69f5-4760-a1bf-be4627cd6616.gif" width="550" height="300"/>
+
+### Auto Mob Kill:
+
+```python
+import millenium, time
+
+driver = millenium.millenium(port=2741)
+
+theMinecraft = driver.getMinecraft()
+thePlayer = theMinecraft.getPlayer()
+raycast = theMinecraft.getRayCast()
+
+while True:
+    if (raycast.isEntityHit() and thePlayer.getAttackCooldown() == 1.0):
+        thePlayer.swingSword()
+    time.sleep(0.25)
+```
+
+<img src="https://user-images.githubusercontent.com/33353036/213910177-144217b0-255d-489e-88c5-71c9d6e5aa49.gif"/>
